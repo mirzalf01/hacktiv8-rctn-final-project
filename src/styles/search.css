@@ -1,0 +1,17 @@
+nav{
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.search input, .search button{
+    padding: 3px 10px;
+}
+.search button{
+    background-color: black;
+    color: white;
+}
+.search input:focus, .search button:focus{
+    outline: none;
+}
